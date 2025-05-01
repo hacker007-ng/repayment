@@ -16,7 +16,7 @@ class RepaymentService {
       }
   
       const repaymentEntry = repayment.tableRepayment.find(
-        (entry) => entry.repaymentId === repaymentId
+        (entry) => entry.repaymentId === String(repaymentId)
       );
   
       if (!repaymentEntry) {
@@ -26,7 +26,7 @@ class RepaymentService {
       if (repaymentEntry.status === 'COMPLETED') {
         throw new Error('Payment already completed');
       }
-  
+      
       repaymentEntry.status = 'COMPLETED';
       repaymentEntry.paymentDate = new Date();
   
@@ -46,16 +46,12 @@ class RepaymentService {
   // Fetch outstanding balance for a user
   async getOutstandingBalance(userId) {
     try {
-      console.log('Fetching outstanding balance for userId:', userId);
-  
-      // Fetch repayment data for the user
       const repayment = await Repayment.findOne({ userId });
       if (!repayment) {
         console.error('User not found:', userId);
         return res.status(404).json({ message: 'User not found' });
       }
-  
-      console.log('Repayment data:', repayment);
+
   
       // Ensure tableRepayment is valid
       if (!Array.isArray(repayment.tableRepayment)) {
@@ -76,10 +72,7 @@ class RepaymentService {
   
       // Calculate outstanding balance
       const outstandingBalance = totalLent - totalPaid;
-  
-      console.log('Total lent:', totalLent);
-      console.log('Total paid:', totalPaid);
-      console.log('Outstanding balance:', outstandingBalance);
+
   
       return { totalLent, totalPaid, outstandingBalance };
     } catch (error) {

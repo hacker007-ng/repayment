@@ -21,8 +21,9 @@ class RepaymentController {
   async makePayment(req, res) {
     try {
       const { userId, repaymentId } = req.params;
+      console.log(userId +" " + repaymentId);
       const updatedRepayment = await repaymentService.makePayment(userId, repaymentId);
-
+        console.log(updatedRepayment);
       res.json({ message: 'Payment completed successfully', data: updatedRepayment });
     } catch (error) {
       res.status(500).json({ error: error.message });
