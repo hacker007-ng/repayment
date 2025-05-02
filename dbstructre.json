@@ -13,7 +13,7 @@
           "interest": 833.33,
           "outstandingBalance": 90379.13,
           "status": "PENDING",
-          "dueDate": "2025-05-30",
+          "dueDate": "2025-05-31",
           "paymentDate": null,
           "monthPay": 10454.20
         },
@@ -35,7 +35,7 @@
           "interest": 672.15,
           "outstandingBalance": 70899.73,
           "status": "PENDING",
-          "dueDate": "2025-07-30",
+          "dueDate": "2025-07-31",
           "paymentDate": null,
           "monthPay": 10451.64
         },
@@ -46,7 +46,7 @@
           "interest": 590.55,
           "outstandingBalance": 61040.10,
           "status": "PENDING",
-          "dueDate": "2025-08-30",
+          "dueDate": "2025-08-31",
           "paymentDate": null,
           "monthPay": 10450.18
         },
@@ -68,7 +68,7 @@
           "interest": 425.31,
           "outstandingBalance": 40981.24,
           "status": "PENDING",
-          "dueDate": "2025-10-30",
+          "dueDate": "2025-10-31",
           "paymentDate": null,
           "monthPay": 10444.86
         },
@@ -90,7 +90,7 @@
           "interest": 257.30,
           "outstandingBalance": 20702.24,
           "status": "PENDING",
-          "dueDate": "2025-12-30",
+          "dueDate": "2025-12-31",
           "paymentDate": null,
           "monthPay": 10436.97
         },
@@ -101,7 +101,7 @@
           "interest": 172.24,
           "outstandingBalance": 10442.69,
           "status": "PENDING",
-          "dueDate": "2026-01-30",
+          "dueDate": "2026-01-31",
           "paymentDate": null,
           "monthPay": 10432.79
         },
@@ -112,7 +112,7 @@
           "interest": 86.48,
           "outstandingBalance": 0.00,
           "status": "PENDING",
-          "dueDate": "2026-02-30",
+          "dueDate": "2026-02-28",
           "paymentDate": null,
           "monthPay": 10529.17
         }
@@ -132,7 +132,7 @@
           "interest": 500.00,
           "outstandingBalance": 40236.67,
           "status": "PENDING",
-          "dueDate": "2025-05-30",
+          "dueDate": "2025-05-31",
           "paymentDate": null,
           "monthPay": 10263.33
         },
@@ -154,7 +154,7 @@
           "interest": 303.76,
           "outstandingBalance": 20416.14,
           "status": "PENDING",
-          "dueDate": "2025-07-30",
+          "dueDate": "2025-07-31",
           "paymentDate": null,
           "monthPay": 10263.33
         },
@@ -165,7 +165,7 @@
           "interest": 204.16,
           "outstandingBalance": 10356.97,
           "status": "PENDING",
-          "dueDate": "2025-08-30",
+          "dueDate": "2025-08-31",
           "paymentDate": null,
           "monthPay": 10263.33
         },
